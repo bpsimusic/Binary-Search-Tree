@@ -120,11 +120,11 @@ describe BinarySearchTree do
     end
   end
 
-  describe '#depth' do
-    it 'finds the depth of the tree' do
+  describe '#height' do
+    it 'finds the height of the tree' do
       bst.insert(5)
-      expect(bst.depth).to eq(0)
-      expect(prefilled_bst.depth).to eq(4)
+      expect(bst.height).to eq(0)
+      expect(prefilled_bst.height).to eq(4)
     end
   end
 
